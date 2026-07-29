@@ -67,7 +67,7 @@ export function Sidebar({ active, onChange }: SidebarProps) {
         </div>
       </div>
 
-      <div className="sidebar-section-label">NAVEGAÇÃO</div>\n\n      <nav className="sidebar-nav">
+      <div className="sidebar-section-label">NAVEGAÇÃO</div>      <nav className="sidebar-nav">
         {items.map((item) => (
           <button
             type="button"
