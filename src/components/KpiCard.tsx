@@ -1,0 +1,1 @@
+export function KpiCard({label,value,caption,status='neutral',delta}:{label:string,value:string,caption:string,status?:string,delta?:string}){return <article className={`kpi ${status}`}><div className="kpi-top"><span>{label}</span><i/></div><div className="kpi-value">{value}</div><div className="kpi-bottom"><span>{caption}</span>{delta&&<b>{delta}</b>}</div></article>}
